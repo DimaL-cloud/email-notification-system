@@ -1,0 +1,12 @@
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+    consumer:
+      group-id: notification-group
+    listener:
+      concurrency: 5
+  mail:
+    host: smtp.gmail.com
+    port: 587
+server:
+  port: 8080
